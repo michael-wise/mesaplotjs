@@ -1,0 +1,36 @@
+html { 
+  background: url(images/neo2010.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {margin:0;
+  display:flex;
+  min-height:100vh;
+  flex-direction:column;
+}
+header {
+	background-color:rgba(255,255,255,95);
+	background-color:black;
+
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+	header h1 {
+		color:white;
+		margin-left:1em;
+	}
+main {
+	margin-top:1em;
+	flex:1;
+
+}
+
+footer {
+	bottom:0;
+	color:white;
+
+}
+footer a {
+	color:green;
+}

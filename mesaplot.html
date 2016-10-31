@@ -1,0 +1,36 @@
+<html>
+<head>
+  <link href="mesaplot.css" type="text/css" rel="stylesheet" />
+  <link href="./jQuery.filer-1.3.0/css/jquery.filer.css" type="text/css" rel="stylesheet" />
+  <link href="./jQuery.filer-1.3.0/css/themes/jquery.filer-dragdropbox-theme.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  	<header>
+  		<h1>mesaplot</h1>
+  	</header>
+
+  	<main>
+	  	<div class="headright">
+	  		<form action="#" onsubmit="return null;" enctype="multipart/form-data">
+				<input type="file" id="files-input" name="files[]" multiple="multiple">
+			    <!-- <input type="submit" value="Process Data Files"> -->
+			</form>
+		</div class="jFiler-items-list" style="color:red">
+		<div>
+			
+		</div>
+  	</main>
+
+    <footer>
+    	Background image: Asteroid Discovery Map 2010 (approx 550,000 known asteroids). <br>Image and <a href="https://www.youtube.com/watch?v=BKKg4lZ_o-Y">video</a> by <a href="http://www.arm.ac.uk/~spm/">Scott Manley</a>. Source of Asteroid Data by Ted Bowell at Lowell Observatory.
+    </footer>
+
+  	
+<script src="papaparse.js"></script>
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="./jQuery.filer-1.3.0/js/jquery.filer.min.js"></script>
+
+<script src="plotly-latest.min.js"></script>
+<script src="mesaplot.js"></script>
+</body>
+</html>
