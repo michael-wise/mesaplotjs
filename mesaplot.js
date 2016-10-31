@@ -21,13 +21,20 @@ $(document).ready(function() {
 					console.log(history_headers);
 				}
 			});
-			for(var propName in filerKit.files_list[0]) {
-				console.log(propName);
+			console.log("Showing properties of files_list[0].file")
+			// for(var propName in filerKit.files_list[0]) {
+			for(var propertyName in filerKit.files_list[0].file) {
+				console.log(propertyName);
 			}
-			// console.log(filerKit.files[0].type);
+
+			console.log("num of files is " + filerKit.files_list.length);
+			console.log("name of file 0 is: " + filerKit.files_list[0].file.name);
+			console.log("name of file 0 is: " + filerKit.files[0].name);
 			// for(var propName in filerKit.files[0]) {
 			// 	console.log(propName);
 			// }
+
+
 			var startint = parseInt(0);
 			var stopint = parseInt(10);
 			var theFile = filerKit.files[0];
